@@ -1,0 +1,379 @@
+/* ------------ COMMON TITLE --------- */
+.masthead {
+    height: 100px;
+	background-color: #1c1c1d;
+	color: white;
+	display: block;
+}
+
+.masthead h1 {
+	padding: 26px;
+	margin: 0px;
+}
+
+body {
+    zoom: 90%;
+    font-size: 18px;
+	display: inline-block;
+	margin: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+
+#logo {
+    font-size: 32px;
+    float: left;
+    margin-top: 13px;
+    transform: rotate(-10deg);
+    font-family: 'Ninja Naruto', sans-serif;
+}
+
+#web_heading {
+    margin-left: 350px;
+    margin-right: 0px;
+    font-size: 28px;
+}
+
+.left_nav {
+    float: left;
+}
+
+.right_nav {
+    float: right;
+}
+
+.nav_menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav_menu a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 20px 15px 10px 0px;
+    padding: 5px 10px 6px 0px;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.nav_menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* -------- REGISTER DETAILS -------- */
+
+.details {
+	background-color: #ddd;
+    height: 315px;
+    border-radius: 8px;
+    margin: 15px 0px 15px 0px;
+    padding: 5px 5px 5px 5px;
+    width: 700px;
+}
+
+#title {
+	font-size: 27px;
+    text-shadow: 2px 2px 5px #01794d;
+    text-align: left;
+    font-weight: 600;
+    color: #01794d;
+    margin: 10px 10px 10px 15px;
+}
+
+#heading {
+	text-align: left;
+    padding: 10px 10px 5px 15px;
+    font-size: 19px;
+    margin: 0px;
+}
+
+form label {
+    float: left;
+    margin-bottom: 23px;
+    margin-left: 120px;
+    font-size: 19px;
+    margin-right: 0px;
+}
+
+input[type="text"], select {
+    font-size: 19px;
+    border: none;
+    float: right;
+    padding: 3px 0px 3px 5px;
+    width: 35%;
+    margin-bottom: 20px;
+    margin-right: 120px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+	width: 34.3%;
+}
+
+select option {
+	padding: 3px 0px 3px 3px;
+}
+
+#test_button {
+	height: 30px;
+    float: left;
+    width: 10%;
+    padding: 0px;
+    margin-top: 55px;
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #01794d;
+    font-size: 17px;
+    font-weight: 600;
+    color: #01794d;
+    margin-left: -150px;
+}
+
+#test_button:hover {
+	background-color: #01794d;
+	color: white;
+}
+
+#test_button:active {
+	padding: 1px 0px 0px 1px;
+}
+
+/*
+select {
+	margin-right: 225px;
+	width: 20%;
+}*/
+
+/* -------- TYPING PAGE STYLE ---------- */
+
+#main_page {
+	height: 394px;
+}
+
+.intro {
+	display: block;
+    height: auto;
+    font-size: 15px;
+    background-color: #01794d;
+    color: white;
+}
+
+.intro p{
+	word-spacing: 2.1px;
+    line-height: 23px;
+    padding: 16px;
+    margin: 0px;
+    width: 51%;
+    text-align: justify;
+}
+
+#origin-text {
+	height: auto;
+	background-color: #a7959538;
+	text-align: justify;
+}
+
+#origin-text p {	
+    padding: 7px;
+    margin: 10px 0px 10px 0px;
+}
+
+#origin-text1 {
+    height: auto;
+    background-color: #a7959538;
+    text-align: justify;
+}
+
+#origin-text1 p {    
+    padding: 7px;
+    margin: 10px 0px 10px 0px;
+}
+
+.record-list {
+	width: 30%;
+	float: left;
+	margin-left: 80px;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table th,td {
+	border: 1px solid #c3c3c3;
+	padding: 5px;
+}
+
+.test-area {
+	margin-right: 80px;
+    float: right;
+    width: 47%;	
+}
+
+
+textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	word-spacing: 2px;
+	font-style: italic; 
+	width: 97%;
+	font-size: 18px;
+	height: auto;
+	border-radius: 5px;
+	border: 4px solid;
+	border-color: #585858;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.meta {
+	height: 50px;
+    margin-top: 10px;	
+}
+
+#result {
+    margin: -38px 0px 11px 10px;
+}
+
+.timer {
+	float: left;
+	font-weight: 700;
+	font-size: 34px;
+    margin: 0px 0px 0px 10px;
+}
+
+#reset {
+    height: 45px;
+    border: 3px solid #e42d04;
+    font-size: 20px;
+    margin: 0px 12px 0px 0px;
+    color: #e42d04;
+    font-weight: 600;
+    float: right;
+}
+
+#reset:hover {
+	color:white;
+	background-color: #e42d04;
+}
+
+#reset:focus {
+	outline: none;
+}
+
+.test-result {
+	text-align: left;
+	font-style: italic;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #01794d;
+    padding: 20px;
+    font-size: 93%;
+    margin-top: 50px;
+}
+
+.footer-nav {    
+    list-style: none;
+    float: left;
+    margin: 20px 0px 0px 0px;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 13px;
+    margin-right: 35px;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link .social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #1c1c1d;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+    border-bottom: 1px solid transparent;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+    border-bottom: 1px solid transparent;
+}
+
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #e95950;
+}
+
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0px 375px 17px 0px;
+}
+
+footer a {
+    color: #1c1c1d;
+}
+
+/* -------- JQUERY FOR SMALL DEVICES ------- */
+
+/* Small Phones: from 0 to 500px */
+@media only screen and (max-width : 500px) {
+    #reset {
+    	margin-top: 15px;
+    	float: left;
+    }
+}
